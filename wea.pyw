@@ -12,7 +12,7 @@ def get_weather_at_my_location():
     
     params = {
         "access_key" : key,
-        "query" : "30.801825,76.136972" # getting ip address 
+        "query" : "fetch:ip" # getting ip address 
     }
     base = "http://api.weatherstack.com/current"
     

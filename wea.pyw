@@ -4,7 +4,7 @@ import json
 import socket
 from win10toast import ToastNotifier
 
-key = ""
+key = "" #enter your key here
 ip_address = str(socket.gethostbyname(socket.gethostname()))
 
 
